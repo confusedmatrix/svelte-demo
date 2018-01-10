@@ -1,5 +1,10 @@
 <h2>{{ module.name }}</h2>
-<p>{{ module.description }}</p>
+
+{{#if module.subtitle !== undefined}}
+<h4>{{ module.subtitle }}</h4>
+{{/if}}
+
+<p>{{ module.description }}.</p>
 {{#if module.tags !== undefined}}
 <ul>
 {{#each module.tags as tag}}

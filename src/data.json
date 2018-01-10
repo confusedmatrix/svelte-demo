@@ -3,6 +3,7 @@
         {
             "name": "test1",
             "description": "blah blah blah blah",
+            "subtitle": "testing",
             "tags": [
                 "test1",
                 "test2",
